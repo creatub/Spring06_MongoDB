@@ -11,5 +11,6 @@ public interface MelonService {
 	List<MelonVO> getSongList() throws Exception;
 	
 	//가수별 노래수 가져오기
+	List<SumVO> getSingerSongCount() throws Exception;
 	
 }
